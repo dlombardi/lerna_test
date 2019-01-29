@@ -1,0 +1,13 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.10.7',
+0 silly argv   '$0': 'node_modules/.bin/lerna' }
+1 notice cli v3.10.7
+2 verbose rootPath /Users/dlombardi/Code/test_project
+3 verbose session b872a5df5936ef0b
+4 verbose user-agent lerna/3.10.7/node@v10.9.0+x64 (darwin)
+5 error Error: Command failed: git describe --always --long --dirty --first-parent
+5 error fatal: bad revision 'HEAD'
+5 error
+5 error     at makeError (/Users/dlombardi/Code/test_project/node_modules/execa/index.js:174:9)
+5 error     at Promise.all.then.arr (/Users/dlombardi/Code/test_project/node_modules/execa/index.js:278:16)
